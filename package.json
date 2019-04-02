@@ -1,0 +1,33 @@
+{
+  "name": "kon-node-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "10.8.0"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles --runInBand",
+    "start": "node chat",
+    "dev": "nodemon chat"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clarify": "^2.1.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-favicon": "^2.0.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.1",
+    "koa-static": "^5.0.0",
+    "nodemon": "^1.18.10",
+    "pug": "^2.0.3",
+    "trace": "^3.1.1"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "request-promise": "^4.2.4"
+  }
+}
